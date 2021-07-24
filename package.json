@@ -1,0 +1,14 @@
+{
+  "name": "manga-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "utils.js",
+  "scripts": {
+    "test": "jest || true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
+}
