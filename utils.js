@@ -10,10 +10,12 @@ utils.sum3 = (a, b, c) => {
   
 utils.printMessage = (msg) => {
     console.log(msg);
+
+    teste
   }
 
 
-  
+
 try{
   module.exports = utils;
 
