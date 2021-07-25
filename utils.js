@@ -1,17 +1,23 @@
-if(exports == null){
-var exports = {};
-}
+var utils = {};
 
-exports.sum = (a, b) => {
+utils.sum = (a, b) => {
     return a + b;
   };
 
-exports.sum3 = (a, b, c) => {
+utils.sum3 = (a, b, c) => {
     return a + b + c;
   };
   
-exports.printMessage = (msg) => {
+utils.printMessage = (msg) => {
     console.log(msg);
   }
 
-utils = exports;
+
+  
+try{
+  module.exports = utils;
+
+}
+catch(e){
+
+}

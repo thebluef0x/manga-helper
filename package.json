@@ -1,7 +1,6 @@
 {
   "name": "manga-helper",
   "version": "1.0.0",
-  "description": "",
   "main": "utils.js",
   "scripts": {
     "test": "jest || true"
@@ -10,5 +9,14 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^27.0.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebluef0x/manga-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thebluef0x/manga-helper/issues"
+  },
+  "homepage": "https://github.com/thebluef0x/manga-helper#readme",
+  "description": ""
 }
